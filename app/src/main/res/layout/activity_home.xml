@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back_design"
+    android:layout_height="match_parent"
+
+
+    tools:context=".HomeActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bk"
+                android:layout_margin="10dp"
+                android:text ="   View All Notes    "
+                android:padding="6dp"
+
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:id="@+id/view"
+                ></Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+
+                android:layout_gravity="center"
+                android:background="@drawable/ed_design"
+                android:text="  Take a quick note!  "
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ed_design"
+                android:padding="10dp"
+                android:inputType="text"
+                android:hint="Name"
+                android:textColorHint="#ffffff"
+                android:textColor="@android:color/white"
+                android:id="@+id/name"
+                android:textAppearance="?android:textAppearanceMedium"
+
+
+                /> >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/ed_design"
+                android:padding="10dp"
+
+                android:hint="Enter Notes here "
+                android:textColorHint="#ffffff"
+                android:textColor="@android:color/white"
+                android:id="@+id/age"
+                android:textAppearance="?android:textAppearanceMedium"
+
+
+                >
+
+
+            </EditText>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bk"
+                android:layout_margin="10dp"
+                android:text ="Save"
+                android:padding="6dp"
+
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:id="@+id/save"
+                ></Button>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

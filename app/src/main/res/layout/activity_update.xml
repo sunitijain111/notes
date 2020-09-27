@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_data"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back_design"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="title"
+                android:text="title"
+                android:padding="6dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:id="@+id/title"
+                android:background="@drawable/update_bk"
+                >
+
+            </EditText>
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="notes "
+            android:padding="6dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:id="@+id/notes"
+            android:background="@drawable/update_bk"
+            >
+            </EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text =" update"
+                android:padding="6dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:id="@+id/update_db"
+                android:background="@drawable/login_bk"
+                >
+            </Button>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
